@@ -1,0 +1,20 @@
+body {
+  background-color: #144673;
+  padding-top: 50px;
+  color: #F87700;
+  font-family: sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: Impact;
+  font-size: 50px;
+  color: #F87700;
+
+}
+
+img {
+  margin: auto;
+  height: 300px;
+}
