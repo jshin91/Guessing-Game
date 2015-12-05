@@ -2,13 +2,13 @@ body {
   background-color: #144673;
   padding-top: 50px;
   color: #F87700;
-  font-family: sans-serif;
+  font-family: Lucida Console;
   margin: auto;
   text-align: center;
 }
 
 h1 {
-  font-family: Impact;
+  font-family: Lucida Console;
   font-size: 50px;
   color: #F87700;
 
@@ -17,4 +17,35 @@ h1 {
 img {
   margin: auto;
   height: 300px;
+}
+
+input {
+  height:25px;
+  width: 150px;
+  margin: auto;
+  font-size: 14px;
+  font-family: Lucida Console;
+  border-color:black;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #F87700;
+    width: 120px;
+    height: 33px;
+    text-align: center;
+
+}
+
+button {
+  background-image: url( 'http://i1379.photobucket.com/albums/ah133/Jisoo_Shin/3dbutton_zps0d6phbpi.png' );
+  background-color: #144673;
+  background-size: 100%;
+  width:140px;
+  height: 40px;
+  border: none;
+  font-size: 15px;
+  font-family: Lucida Console;
+  color: #F87700;
+  padding-top:5px;
 }
