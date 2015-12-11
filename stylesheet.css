@@ -1,6 +1,7 @@
-body {
+html, body {
   background-color: #144673;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   color: #F87700;
   font-family: Lucida Console;
   margin: auto;
@@ -8,44 +9,82 @@ body {
 }
 
 h1 {
-  font-family: Lucida Console;
+  margin: -10px;
   font-size: 50px;
   color: #F87700;
-
 }
 
-img {
-  margin: auto;
+#penguin {
+  margin: 10px;
   height: 300px;
 }
 
-input {
-  height:25px;
-  width: 150px;
-  margin: auto;
-  font-size: 14px;
-  font-family: Lucida Console;
-  border-color:black;
-  border-radius: 4px;
+span {
+  font-size: 1.5em;
 }
 
-input[type=submit] {
-    background-color: #F87700;
-    width: 120px;
-    height: 33px;
-    text-align: center;
-
+p {
+  padding-bottom: 10px;
 }
 
-button {
+.hintMessage {
+  color: #F87700;
+}
+
+.orangeButtons {
   background-image: url( 'http://i1379.photobucket.com/albums/ah133/Jisoo_Shin/3dbutton_zps0d6phbpi.png' );
   background-color: #144673;
   background-size: 100%;
   width:140px;
-  height: 40px;
+  height: 43px;
   border: none;
   font-size: 15px;
   font-family: Lucida Console;
   color: #F87700;
   padding-top:5px;
+}
+
+.user {
+  height:25px;
+  width: 150px;
+  margin: auto;
+  font-size: 14px;
+  font-family: Lucida Sans;
+  border-color:black;
+  border-radius: 10px;
+  border-width: 4px;
+}
+
+#submitGuess {
+  height:34px;
+}
+
+#userInput {
+  padding-left: 10px
+}
+
+#hintMessage, #allGuesses {
+  color: #144673;
+}
+
+#allGuesses {
+  font-size: 3em;
+}
+
+.highlighted {
+  color: white;
+  font-size:2.5em;
+}
+
+.rotate { 
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  transform: rotate(-360deg);
 }
